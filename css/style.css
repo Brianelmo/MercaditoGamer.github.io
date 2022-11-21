@@ -1,0 +1,30 @@
+:root {
+  --fuente : 'Raleway', sans-serif; 
+  --azul_general : #2A7AE4;
+  --azul_login :  #533976; 
+  --negro : #464646; 
+  --blanco : #ffffff; 
+  --blanco_osc : #F5F5F5;
+} 
+
+body {
+  font-family: var(--fuente);
+} 
+
+
+.button {
+  width: 109px;
+  padding: 12px 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul_general); 
+  color: var(--blanco); 
+  border: none; 
+  cursor: pointer;
+} 
+
+.button:hover{
+  background-color: var(--azul_general);
+  color: var(--blanco);
+}

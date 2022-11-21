@@ -1,0 +1,50 @@
+.login__inputs {
+  margin: 20vh auto;
+  width: 60%; 
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+
+.login_input {
+  width: 270px;
+  height: 45px; 
+  margin-bottom: 20px; 
+}  
+
+.titulo__inputs {
+  cursor: default; 
+  font-size: 20px;
+} 
+
+
+@media (min-width: 768px) {
+   
+  .login_input {
+    width: 350px;
+  } 
+
+
+  .button {
+    width: 200px;
+  }
+
+
+} 
+
+
+@media (min-width: 1280px) {
+  .login__input {
+    width: 450px;
+  } 
+
+  .button {
+    width: 360px;
+  } 
+
+  
+
+
+}

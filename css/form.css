@@ -1,0 +1,143 @@
+/* Estilos formulario */ 
+
+.formulario__div{
+  background-image: url(/img/mando.jpg); 
+  background-position: center center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}  
+
+.span-color {
+  color: #EAEAEA;
+} 
+
+.link_form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+} 
+
+.link_form a {
+  text-decoration: none; 
+  margin-bottom: 15px; 
+  color: var(--blanco);
+}
+ 
+
+/* Formulario */  
+
+.formulario {
+  backdrop-filter: blur(2px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px 0; 
+}    
+ 
+
+.inputs__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+}
+
+.form__titulo {
+  width: 300px;
+  font-size: 16px;
+  display: flex; 
+  align-items: flex-start; 
+  color: var(--blanco);
+}
+
+.nombre {
+  width: 300px;
+  height: 56px; 
+  margin-bottom: 20px;    
+  border: none;
+  background-color: var(--negro);  
+  border-radius: 5px; 
+  color: var(--blanco);
+}   
+
+.nombre::placeholder {
+  padding: 0 5px;
+  color: var(--blanco);
+  text-align: start;
+}
+.mensaje::placeholder {
+  padding: 0 5px;
+  color: var(--blanco);
+  text-align: start;
+}
+
+
+
+.mensaje {
+  width: 300px; 
+  height: 80px; 
+  resize: none;
+  background-color: var(--negro);  
+  border-radius: 5px;
+  border: none;
+  color: var(--blanco);
+} 
+ 
+
+.form__btn {
+  width: 306px;
+  display: flex;
+  align-items: flex-start; 
+  padding-top: 10px;
+}
+
+.form__btn input { 
+  width: 113px; 
+  padding: 12px 16px;
+  background-color: var(--blanco); 
+  border: none;
+  color: var(--negro);
+}
+
+
+
+@media (min-width: 768px) {
+  
+  .formulario {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  } 
+
+
+  .container__form{
+    padding-right: 100px;
+  }
+
+} 
+
+
+@media (min-width: 1366px) {
+  .container__form{
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .titulo_links {
+    margin-right: 150px;
+  }
+}

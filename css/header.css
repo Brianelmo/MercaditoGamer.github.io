@@ -1,0 +1,175 @@
+/* Estilos Header */ 
+
+
+.header { 
+  display: flex;  
+  align-items: center; 
+  justify-content: center; 
+  justify-content: space-between;  
+  padding: 20px ; 
+  font-family: var(--fuente);
+}    
+
+.busqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+
+.titulo { 
+  display: flex; 
+  align-items: center;
+  padding: 0;
+  margin: 0;   
+  cursor: default;
+} 
+
+.titulo img {
+  width: 22px; 
+  height: 16px;
+}
+
+.h1__default{
+  font-size: 20px; 
+  margin: 0;
+}  
+
+.header span  {
+  color: var(--azul_general);
+} 
+
+/* Boton  */
+
+.header_boton {  
+  background-color: var(--blanco); 
+  border-color: var(--azul_general);
+  color: var(--azul_general);
+  padding: 10px 40px;  
+  display: flex;
+  text-align: center;  
+  margin: 0 20px; 
+  cursor: pointer; 
+  transition: all ease 300ms;
+} 
+
+.header_boton:hover { 
+  background-color: var(--azul_general);
+  color: var(--blanco);
+}
+
+/* Lupa */ 
+
+.nav {
+  display: flex; 
+  align-items: center;
+}  
+ 
+.lupa {
+  width: 40px; 
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+
+/* Admin */
+
+
+.button__admin {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 170px; 
+  font-size: 14px; 
+  line-height: 16px;
+  padding: 16px;
+  transition: all ease 300ms; 
+}  
+
+.button__admin:hover {
+  background-color: var(--azul_general); 
+  color: var(--blanco);
+}
+
+.header__admin {
+  width: auto;
+} 
+
+.h1__admin{
+  font-size: 14px;
+}
+
+
+/* Responsive pc */ 
+
+@media (min-width: 1280px) {
+  .header {
+    max-width: 1100px; 
+    margin: 0 auto;
+  }   
+
+  .busqueda {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px; 
+    background-color: var(--blanco_osc); 
+    border-radius: 20px; 
+  }
+
+  .barra__busqueda { 
+    border: none;  
+    width: 0;
+    background-color: transparent;
+    border-radius: 20px;
+    outline: none; 
+    float: left; 
+    transition: all ease 500ms
+  }  
+
+  .busqueda:hover > .barra__busqueda {
+    display: flex;
+    width: 200px;
+  }
+
+ 
+  .barra__busqueda::placeholder {
+    color: var(--negro); 
+  }  
+  
+  .lupa {   
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav { 
+    width: 900px;
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-left: 50px;
+  } 
+
+  .busqueda {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  } 
+
+}
+
+
+@media (max-width: 768px) {
+  .barra__busqueda {
+    display: none;
+  }
+}

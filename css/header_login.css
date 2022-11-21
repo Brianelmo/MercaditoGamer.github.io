@@ -1,0 +1,26 @@
+body {
+  font-family: var(--fuente);
+}
+
+.header__login {
+  background-color: var(--blanco_osc);
+  width: auto;  
+  height: 70px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 10px;
+} 
+
+
+.titulo__login {
+  font-size: 20px;
+}  
+
+
+@media (min-width: 1280px) {
+  .header__login {
+    justify-content: space-around;
+  } 
+}
+

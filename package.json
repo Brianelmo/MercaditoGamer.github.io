@@ -1,0 +1,18 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-commerce proyecto realizado en ORACLE ONE NEXT EDUCATION",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "fetch",
+    "npm"
+  ],
+  "author": "Brian Nicolas Elmo",
+  "license": "ISC"
+}

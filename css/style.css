@@ -22,6 +22,7 @@ body {
   color: var(--blanco); 
   border: none; 
   cursor: pointer;
+  border-radius: 5px;
 } 
 
 .button:hover{

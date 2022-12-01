@@ -1,0 +1,145 @@
+{
+  "producto" : [
+    {
+      "name" : "Muñeco Baby Yoda" ,
+      "urlImage" : "/img/star1.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    },
+    {
+      "name" : "Muñeco BB-8" ,
+      "urlImage" : "/img/star2.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    },
+    {
+      "name" : "Muñeco R2D2" ,
+      "urlImage" : "/img/star3.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    }, {
+      "name" : "Muñeco Skull Trupper" ,
+      "urlImage" : "/img/star4.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    }, 
+    {
+      "name" : "Muñeco Darth Vader" ,
+      "urlImage" : "/img/star5.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    }, {
+      "name" : "Muñeco Lego Batman" ,
+      "urlImage" : "/img/star6.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Star Wars"
+    }, 
+    {
+      "name" : "Xbox 360" ,
+      "urlImage" : "/img/consola1.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, {
+      "name" : "Nintendo Switch" ,
+      "urlImage" : "/img/consola2.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, 
+    {
+      "name" : "PlayStation 4" ,
+      "urlImage" : "/img/consola3.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, 
+    {
+      "name" : "PlayStation 1" ,
+      "urlImage" : "/img/consola4.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, 
+    {
+      "name" : "PlayStation 3" ,
+      "urlImage" : "/img/consola5.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, 
+    {
+      "name" : "Sega" ,
+      "urlImage" : "/img/consola6.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Consola"
+    }, 
+    {
+      "name" : "Juego de mesa familiar" ,
+      "urlImage" : "/img/mesa1.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }, 
+    {
+      "name" : "Juego dados/rol " ,
+      "urlImage" : "/img/mesa2.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }, 
+    {
+      "name" : "Juego CYD" ,
+      "urlImage" : "/img/mesa3.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }, 
+    {
+      "name" : "Yenga" ,
+      "urlImage" : "/img/mesa4.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }, 
+    {
+      "name" : "Damas inglesas" ,
+      "urlImage" : "/img/mesa5.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }, {
+      "name" : "Monopoly" ,
+      "urlImage" : "/img/mesa6.jpg", 
+      "price" : "200", 
+      "id": 1,
+      "alt" : "product", 
+      "section" : "Mesa"
+    }
+  ]
+    
+}

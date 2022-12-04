@@ -22,10 +22,10 @@
   <header class="header">
     <div class="titulo">
       <img class="header_control" src="/img/Vector.png"alt="">
-      <h1><span>Mercadito</span>Gamer</h1>
+      <h1 class="titulo__header"><span>Mercadito</span>Gamer</h1>
     </div>
     <nav class="nav">
-    <button class="header_boton">Login</button>
+    <button id="btn_login" class="header_boton">Login</button>
       <div class="busqueda">
         <input class="barra__busqueda" type="search" placeholder="Buscar producto">
         <div class="lupa">
@@ -71,6 +71,13 @@
       <div class="container__products mesas">
       
       </div>
+      <header class="header__productos">
+        <h2>Variedad</h2> 
+        <a class="vertodo" href="#">Ver todo<i class="fa-solid fa-arrow-right"></i></a> 
+      </header>
+      <div class="container__products random">
+        
+      </div>
     </div>
   <div class="formulario__div">
   <section class="formulario">
@@ -104,8 +111,9 @@
   <footer class="footer_principal">
     <p>Pagina desarrollada por Brian Nicolas Elmo 2022</p>
   </footer> 
- <script type="module" src="../controllers/controll_home.js"></script>
- <script src="../servicios/products.js"></script>
-  <script src="https://kit.fontawesome.com/d57c20a4c3.js" crossorigin="anonymous"></script> 
+<script type="module" src="../controllers/controll_home.js"></script>
+<script src="../servicios/products.js"></script> 
+<script src="../servicios/btns.js"></script>
+<script src="https://kit.fontawesome.com/d57c20a4c3.js" crossorigin="anonymous"></script> 
 </body>
 </html>

@@ -26,6 +26,7 @@ const mesa = "Mesa";
 const sectWa = document.querySelector(".container__products"); 
 const sectCons = document.querySelector(".consolas");
 const sectMesa = document.querySelector(".mesas");  
+const sectVariedad = document.querySelector(".random");
 
 
 productosService
@@ -43,6 +44,10 @@ productosService
     if(section === mesa) {
       const nuevaLinea = newProduct(name , price , urlImage , section)
       sectMesa.appendChild(nuevaLinea);
+    }
+    if(section !== mesa && section !== starWars && section !== consolas) {
+      const nuevaLinea = newProduct(name , price , urlImage)
+      sectVariedad.appendChild(nuevaLinea);
     }
   })
 })

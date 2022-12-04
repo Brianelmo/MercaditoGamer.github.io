@@ -1,13 +1,14 @@
 import { productosService } from "../servicios/products.js";
 
 
-const newProduct = (name , price , urlImage ) => {
+const newProduct = (name , price , urlImage , id) => {
   const card = document.createElement("div");
+  console.log(id);
   const content = `
   <div class="tarjeta__producto">
     <div class="producto__img"> 
       <div class="botones__prod">
-        <i class="fa-solid fa-trash"></i>
+        <i class="fa-solid fa-trash" id='${id}'></i>
         <i class="fa-solid fa-pencil"></i>
       </div>
       <img src="${urlImage}" alt="">
@@ -18,18 +19,27 @@ const newProduct = (name , price , urlImage ) => {
   `  
 
   card.innerHTML = content 
+
+  const btn = card.querySelector('.fa-trash');
+  btn.addEventListener("click", () => {
+    const id = btn.id; 
+    productosService.deleteClient(id).then(reponse => {
+    
+    }).catch(error => console.log(error));
+  })
+
   card.classList.add("productos__container")
  
   return card
 } 
 
-const product = document.querySelector("[data-allProducts]"); 
+const product = document.querySelector(".container__products"); 
 
 const render = async () => {
   try { 
     const listaProductos = await productosService.listProducts(); 
     listaProductos.forEach((element) => {
-      product.appendChild(newProduct(element.name , element.price , element.urlImage))
+      product.appendChild(newProduct(element.name , element.price , element.urlImage , element.id));
     })
   }
   catch(error) {
@@ -37,4 +47,5 @@ const render = async () => {
   }
 } 
 
-render();
+render(); 
+

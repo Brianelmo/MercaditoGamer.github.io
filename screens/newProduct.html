@@ -17,10 +17,10 @@
   <header class="header header__admin">
     <div class="titulo titulo__admin">
       <img class="header_control" src="/img/Vector.png"alt="">
-      <h1 class="h1__default  h1__admin"><span>Mercadito</span>Gamer</h1>
+      <h1 class="titulo__header"  class="h1__default  h1__admin"><span>Mercadito</span>Gamer</h1>
     </div>
     <nav class="nav">
-    <button class="header_boton button__admin">Menu Administrador</button>
+    <button class="header_boton button__admin" data-admin-btn>Menu Administrador</button>
       <div class="busqueda">
         <input class="barra__busqueda" type="search" placeholder="Buscar producto">
         <div class="lupa">
@@ -32,11 +32,11 @@
   <section class="add__prod">
     <div class="inputs__prod">
     <h2 class="add__titulo">Agregar Producto</h2>
-    <form class="prod__form">
-      <input class="prod__input" type="url" placeholder="Url de la imagen"> 
-      <input class="prod__input" type="text" placeholder="categoria">
-      <input class="prod__input" type="text" placeholder="Nombre del producto">
-      <input class="prod__input" type="text" placeholder="Precio del producto">
+    <form class="prod__form" data-form-product>
+      <input class="prod__input" data-url-product type="text" placeholder="Url de la imagen"> 
+      <input class="prod__input" data-categoria-product type="text" placeholder="categoria">
+      <input class="prod__input" data-nombre-product type="text" placeholder="Nombre del producto">
+      <input class="prod__input" data-precio-product type="text" placeholder="Precio del producto">
       <textarea class="text__prod" name="" id="" cols="30" rows="10" placeholder="Descripcion del producto"></textarea>
       <input class="button add__product-btn" type="submit" value="Agregar Producto">
     </form> 
@@ -47,7 +47,7 @@
       <div class="container__form">
         <div class="titulo titulo_links">
           <img class="header_control form__control" src="/img/Vector.png"alt="">
-          <h1><span class="span-color">Mercadito</span>Gamer</h1>
+          <h1 id="bnt__all"><span class="span-color">Mercadito</span>Gamer</h1>
         </div> 
         <div class="link_form">
           <a href="#">Quienes Somos</a>
@@ -75,5 +75,8 @@
       <p>Pagina desarrollada por Brian Nicolas Elmo 2022</p>
     </footer> 
   <script src="https://kit.fontawesome.com/d57c20a4c3.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="../controllers/createProduct.js"></script> 
+  <script src="../controllers/addtoAdmin.js"></script>
 </body>
 </html>

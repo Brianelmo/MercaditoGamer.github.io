@@ -18,11 +18,10 @@
     },
     {
       "name": "Muñeco R2D2",
+      "price": "300",
       "urlImage": "/img/star3.jpg",
-      "price": "200",
-      "id": 3,
-      "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "id": 3
     },
     {
       "name": "Muñeco Skull Trupper",

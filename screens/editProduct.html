@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../img/pngegg.ico">
-  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="../css/style.css"> 
-  <link rel="stylesheet" href="../css/inputs__prod.css"> 
-  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/form.css">
-  <title>Agregar Producto</title>
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/edit_prod.css">
+  <title>Editar Producto</title>
 </head>
 <body>
   <header class="header header__admin">
@@ -29,25 +29,32 @@
       </div>
     </nav>
   </header> 
-  <section class="add__prod">
-    <div class="inputs__prod">
-    <h2 class="add__titulo">Agregar Producto</h2>
-    <form class="prod__form" data-form-product>
-      <input class="prod__input" data-url-product type="text" placeholder="Url de la imagen"> 
-      <input class="prod__input" data-categoria-product type="text" placeholder="categoria">
-      <input class="prod__input" data-nombre-product type="text" placeholder="Nombre del producto">
-      <input class="prod__input" data-precio-product type="text" placeholder="Precio del producto">
-      <textarea class="text__prod" name="" id="" cols="30" rows="10" placeholder="Descripcion del producto"></textarea>
-      <input class="button add__product-btn" type="submit" value="Agregar Producto">
-    </form> 
-  </div>
-  </section> 
+  <main>
+    <section class="edit__product">
+      <div class="seccion-edit">
+        <div class="img-editar">
+
+        </div>
+        <form class="inputs-edit">
+        <label for="nombre">Nombre</label>
+        <input name="nombre" class="nombre-edit input-edit" type="text" placeholder="Edita el nombre del producto">
+        <label for="price">Precio</label>
+        <input name="price" type="text" class="price-edit input-edit" placeholder="Edita el precio del producto">
+        <label for="url">Url Imagen</label>
+        <input name="url" type="text" class="url-edit input-edit" placeholder="Edita la foto del producto">
+        <label for="section">Seccion</label>
+        <input name="section" type="text" class="section-edit input-edit" placeholder="Edita la seccion del producto">
+        <input class="btn-editar" type="submit" value="Editar">
+        </form>
+      </div>
+    </section>
+  </main>
   <div class="formulario__div">
     <section class="formulario">
       <div class="container__form">
         <div class="titulo titulo_links">
           <img class="header_control form__control" src="/img/Vector.png"alt="">
-          <h1 id="bnt__all"><span class="span-color">Mercadito</span>Gamer</h1>
+          <h1><span class="span-color">Mercadito</span>Gamer</h1>
         </div> 
         <div class="link_form">
           <a href="#">Quienes Somos</a>
@@ -81,9 +88,7 @@
       </div>
       <p>Pagina desarrollada por Brian Nicolas Elmo 2022</p>
     </footer> 
-  <script src="https://kit.fontawesome.com/d57c20a4c3.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="module" src="../controllers/createProduct.js"></script> 
-  <script src="../controllers/addtoAdmin.js"></script>
+  <script src="https://kit.fontawesome.com/d57c20a4c3.js" crossorigin="anonymous"></script> 
+  <script type="module" src="../controllers/refresh.controllers.js"></script>
 </body>
 </html>

@@ -1,0 +1,139 @@
+*{
+  font-family: var(--fuente);
+}
+
+.busqueda {
+  display: none;
+}
+
+.edit__product {
+  margin: 100px 0px;
+}
+
+.edit-title {
+  margin-left: 20px;
+  font-size: 4vh;
+  text-align: center; 
+  color: var(--azul_general);
+  margin: 0;
+}
+
+.seccion-edit {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin: 50px 0px;
+} 
+
+.inputs-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+   
+
+.btn-editar {
+  padding: 1.5vh; 
+  width: 30vh; 
+  border: none;
+  border-radius: 5px; 
+  background-color: var(--azul_general);
+  color: var(--blanco); 
+  transition: all ease 0.5s; 
+  margin-top: 20px;
+} 
+
+.btn-editar:hover {
+  background-color: var(--azul_login);
+}
+
+.input-edit{
+ margin-bottom: 15px;
+ padding: 2vh;
+ font-size: 15px;
+ width: 40vh; 
+ outline: none;
+ border-radius: 5px; 
+ border: none;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ font-family: var(--fuente);
+ font-weight: bold; 
+ font-size: 16px;
+} 
+
+.imagen-edit {
+  width: 35vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+} 
+
+label {
+  padding: 2vh;
+  width: 40vh;
+  text-align: start; 
+  padding: 1vh 0px; 
+  font-weight: bold; 
+  font-size: 14px; 
+  text-transform: uppercase;
+}
+
+
+
+@media (min-width: 1280px) { 
+
+  .seccion-edit {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    margin: 100px 0px;
+  }   
+
+  .input-edit {
+    width: 45vh;
+  } 
+
+  label {
+    padding: 2vh;
+    width: 45vh;
+    text-align: start; 
+    padding: 1vh 0px; 
+  }
+  
+
+  .btn-editar {
+    width: 300px;
+  }
+
+  .img-editar {
+    display: flex;
+    width: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .edit-title {
+    text-align: center;
+  }
+
+  .imagen-edit {
+    width: 50vh; 
+    margin-right: 70px;
+  } 
+
+  .edit__product {
+    margin: 200px 0px;
+  }
+
+
+} 
+
+
+@media (max-width: 1280px) {
+  .busqueda {
+    display: none;
+  }
+}

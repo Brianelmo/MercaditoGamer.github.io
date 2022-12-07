@@ -1,9 +1,9 @@
 //GET
 
-const listProducts  = () => fetch('http://localhost:3000/producto').then(respuesta => respuesta.json());  
+const listProducts  = () => fetch('https://mercaditogamer.onrender.com/producto').then(respuesta => respuesta.json());  
 
 const crearCliente = (name , price , section , urlImage , id) => {
-  return fetch('http://localhost:3000/producto', {
+  return fetch('https://mercaditogamer.onrender.com/producto', {
     method: "POST", 
     headers: {
       "Content-Type" : "application/json"
@@ -20,20 +20,20 @@ const crearCliente = (name , price , section , urlImage , id) => {
 }  
 
 const deleteClient = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://mercaditogamer.onrender.com/producto/${id}`, {
     method: "DELETE", 
   })
 } 
 
 
 const datosProduct = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).
+  return fetch(`https://mercaditogamer.onrender.com/producto/${id}`).
   then(reponse  =>  reponse.json());
 }
  
 
 const editClient = (name , price , urlImage , section, id) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://mercaditogamer.onrender.com/producto/${id}`, {
     method:"PUT", 
     headers: {
       "Content-Type": "application/json"

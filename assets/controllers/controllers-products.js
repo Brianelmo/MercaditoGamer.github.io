@@ -9,7 +9,7 @@ const newProduct = (name , price , urlImage , id) => {
     <div class="producto__img"> 
       <div class="botones__prod">
         <i class="fa-solid fa-trash" id='${id}'></i>
-        <a href="/screens/editProduct.html?id=${id}"><i class="fa-solid fa-pencil"></i></a>
+        <a href="./editProduct.html?id=${id}"><i class="fa-solid fa-pencil"></i></a>
       </div>
       <img src="${urlImage}" alt="">
     </div>
@@ -20,7 +20,7 @@ const newProduct = (name , price , urlImage , id) => {
   card.innerHTML = content;
 
 
-
+  
   const btn = card.querySelector('.fa-trash');
   btn.addEventListener("click", () => {
     const id = btn.id; 

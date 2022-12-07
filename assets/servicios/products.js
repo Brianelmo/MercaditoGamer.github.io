@@ -3,7 +3,7 @@
 const listProducts  = () => fetch('https://mercaditogamer.onrender.com/producto').then(respuesta => respuesta.json());  
 
 const crearCliente = (name , price , section , urlImage , id) => {
-  return fetch('https://mercaditogamer.onrender.com/producto', {
+  return fetch(`https://mercaditogamer.onrender.com/producto/${id}`, {
     method: "POST", 
     headers: {
       "Content-Type" : "application/json"

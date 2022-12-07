@@ -9,7 +9,7 @@ const newProduct = (name , price , urlImage , section , id) => {
     </div>
     <p>${name}</p>
     <p>${price}</p>
-    <a class='link-prod'href="/screens/product.html?id=${id}">Ver Producto</a>
+    <a class='link-prod'href="assets/screens/product.html?id=${id}">Ver Producto</a>
   `  
   
   card.innerHTML = content 

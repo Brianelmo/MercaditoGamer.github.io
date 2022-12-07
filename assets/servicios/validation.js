@@ -18,9 +18,9 @@ btn.addEventListener("click" , (event) => {
   const validationPass = rgxPass.test(password.value); 
 
   if(password.value === datos.passwrod && email.value === datos.email ) {
-    window.location.href = '/screens/allProducts.html';
+    window.location.href = './allProducts.html';
   }
   else if(validation === true && validationPass === true ) {
-    window.location.href = '../index.html';
+    window.location.href = '/index.html';
   }
 })

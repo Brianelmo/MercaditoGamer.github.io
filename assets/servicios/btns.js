@@ -5,5 +5,5 @@ const btnHome = document.querySelector(".titulo__header");
 
 
 btnLogin.addEventListener("click", () => {
-  window.location.href = '/screens/login.html';
+  window.location.href = 'assets/screens/login.html';
 }) 

@@ -1,7 +1,7 @@
 /* Estilos formulario */ 
 
 .formulario__div{
-  background-image: url(/img/mando.jpg); 
+  background-image: url(../img/mando.jpg); 
   background-position: center center; 
   background-size: cover;
   background-repeat: no-repeat;

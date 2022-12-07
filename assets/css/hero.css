@@ -5,7 +5,7 @@
 }
 
 .hero_div {
-  background-image: url(/img/mando.jpg); 
+  background-image: url(../img/mando.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;  

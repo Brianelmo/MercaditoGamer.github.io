@@ -2,7 +2,7 @@
   "producto": [
     {
       "name": "Muñeco Baby Yoda",
-      "urlImage": "/img/star1.jpg",
+      "urlImage": "asssets/img/star1.jpg",
       "price": "200",
       "id": 1,
       "alt": "product",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Muñeco BB-8",
-      "urlImage": "/img/star2.jpg",
+      "urlImage": "asssets/img/star2.jpg",
       "price": "200",
       "id": 2,
       "alt": "product",
@@ -21,14 +21,14 @@
     {
       "name": "Muñeco R2D2",
       "price": "300",
-      "urlImage": "/img/star3.jpg",
+      "urlImage": "asssets/img/star3.jpg",
       "section": "Star Wars",
       "id": 3,
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco Skull Trupper",
-      "urlImage": "/img/star4.jpg",
+      "urlImage": "asssets/img/star4.jpg",
       "price": "200",
       "id": 4,
       "alt": "product",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Muñeco Darth Vader",
-      "urlImage": "/img/star5.jpg",
+      "urlImage": "assets/img/star5.jpg",
       "price": "200",
       "id": 5,
       "alt": "product",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Muñeco Lego Batman",
-      "urlImage": "/img/star6.jpg",
+      "urlImage": "asssets/img/star6.jpg",
       "price": "200",
       "id": 6,
       "alt": "product",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Xbox 360",
-      "urlImage": "/img/consola1.jpg",
+      "urlImage": "asssets/img/consola1.jpg",
       "price": "200",
       "id": 7,
       "alt": "product",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Nintendo Switch",
-      "urlImage": "/img/consola2.jpg",
+      "urlImage": "asssets/img/consola2.jpg",
       "price": "200",
       "id": 8,
       "alt": "product",
@@ -73,7 +73,7 @@
     },
     {
       "name": "PlayStation 4",
-      "urlImage": "/img/consola3.jpg",
+      "urlImage": "asssets/img/consola3.jpg",
       "price": "200",
       "id": 9,
       "alt": "product",
@@ -82,7 +82,7 @@
     },
     {
       "name": "PlayStation 1",
-      "urlImage": "/img/consola4.jpg",
+      "urlImage": "asssets/img/consola4.jpg",
       "price": "200",
       "id": 10,
       "alt": "product",
@@ -91,7 +91,7 @@
     },
     {
       "name": "PlayStation 3",
-      "urlImage": "/img/consola5.jpg",
+      "urlImage": "asssets/img/consola5.jpg",
       "price": "200",
       "id": 11,
       "alt": "product",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Sega",
-      "urlImage": "/img/consola6.jpg",
+      "urlImage": "asssets/img/consola6.jpg",
       "price": "200",
       "id": 12,
       "alt": "product",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Juego de mesa familiar",
-      "urlImage": "/img/mesa1.jpg",
+      "urlImage": "asssets/img/mesa1.jpg",
       "price": "200",
       "id": 13,
       "alt": "product",
@@ -118,7 +118,7 @@
     },
     {
       "name": "Juego dados/rol ",
-      "urlImage": "/img/mesa2.jpg",
+      "urlImage": "asssets/img/mesa2.jpg",
       "price": "200",
       "id": 14,
       "alt": "product",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Juego CYD",
-      "urlImage": "/img/mesa3.jpg",
+      "urlImage": "asssets/img/mesa3.jpg",
       "price": "200",
       "id": 15,
       "alt": "product",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Yenga",
-      "urlImage": "/img/mesa4.jpg",
+      "urlImage": "asssets/img/mesa4.jpg",
       "price": "200",
       "id": 16,
       "alt": "product",
@@ -145,7 +145,7 @@
     },
     {
       "name": "Damas inglesas",
-      "urlImage": "/img/mesa5.jpg",
+      "urlImage": "asssets/img/mesa5.jpg",
       "price": "200",
       "id": 17,
       "alt": "product",
@@ -154,7 +154,7 @@
     },
     {
       "name": "Monopoly",
-      "urlImage": "/img/mesa6.jpg",
+      "urlImage": "asssets/img/mesa6.jpg",
       "price": "200",
       "id": 18,
       "alt": "product",

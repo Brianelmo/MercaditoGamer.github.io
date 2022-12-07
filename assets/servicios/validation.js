@@ -21,6 +21,6 @@ btn.addEventListener("click" , (event) => {
     window.location.href = '/screens/allProducts.html';
   }
   else if(validation === true && validationPass === true ) {
-    window.location.href = '/index.html';
+    window.location.href = '../index.html';
   }
 })

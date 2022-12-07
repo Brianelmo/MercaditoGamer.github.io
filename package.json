@@ -2,10 +2,10 @@
   "name": "e-commerce",
   "version": "1.0.0",
   "description": "E-commerce basado en reto de alura latam",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node servicios/server.js"
   },
   "repository": {
     "type": "git",

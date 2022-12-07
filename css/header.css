@@ -17,6 +17,13 @@
   justify-content: center;
 }
 
+.titulo__header{
+  text-decoration: none;
+  font-size: 20px;  
+  color: black; 
+  font-family: var(--fuente); 
+  font-weight: 700;
+}
 
 
 .titulo { 

@@ -2,7 +2,7 @@
 
 const listProducts  = () => fetch('http://localhost:3000/producto').then(respuesta => respuesta.json());  
 
-const crearCliente = (name , price , section , urlImage) => {
+const crearCliente = (name , price , section , urlImage , id) => {
   return fetch('http://localhost:3000/producto', {
     method: "POST", 
     headers: {

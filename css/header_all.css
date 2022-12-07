@@ -14,7 +14,11 @@
   justify-content: center;
 }
 
-
+.h1_products {
+  text-decoration: none;
+  color: black; 
+  font-weight: 700;
+}
 
 .titulo { 
   display: flex; 

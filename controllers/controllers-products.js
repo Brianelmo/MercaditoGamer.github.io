@@ -15,7 +15,6 @@ const newProduct = (name , price , urlImage , id) => {
     </div>
     <p>${name}</p>
     <p>${price}</p>
-    <a href="#">Ver Producto</a>
   `  
 
   card.innerHTML = content;
@@ -45,7 +44,7 @@ const render = async () => {
     })
   }
   catch(error) {
-    console.log(error)
+    console.log(error) 
   }
 } 
 

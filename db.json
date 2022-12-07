@@ -6,7 +6,8 @@
       "price": "200",
       "id": 1,
       "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco BB-8",
@@ -14,14 +15,16 @@
       "price": "200",
       "id": 2,
       "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco R2D2",
       "price": "300",
       "urlImage": "/img/star3.jpg",
       "section": "Star Wars",
-      "id": 3
+      "id": 3,
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco Skull Trupper",
@@ -29,7 +32,8 @@
       "price": "200",
       "id": 4,
       "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco Darth Vader",
@@ -37,7 +41,8 @@
       "price": "200",
       "id": 5,
       "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Muñeco Lego Batman",
@@ -45,7 +50,8 @@
       "price": "200",
       "id": 6,
       "alt": "product",
-      "section": "Star Wars"
+      "section": "Star Wars",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Xbox 360",
@@ -53,7 +59,8 @@
       "price": "200",
       "id": 7,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Nintendo Switch",
@@ -61,7 +68,8 @@
       "price": "200",
       "id": 8,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "PlayStation 4",
@@ -69,7 +77,8 @@
       "price": "200",
       "id": 9,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "PlayStation 1",
@@ -77,7 +86,8 @@
       "price": "200",
       "id": 10,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "PlayStation 3",
@@ -85,7 +95,8 @@
       "price": "200",
       "id": 11,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Sega",
@@ -93,7 +104,8 @@
       "price": "200",
       "id": 12,
       "alt": "product",
-      "section": "Consola"
+      "section": "Consola",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Juego de mesa familiar",
@@ -101,7 +113,8 @@
       "price": "200",
       "id": 13,
       "alt": "product",
-      "section": "Mesa"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Juego dados/rol ",
@@ -109,7 +122,8 @@
       "price": "200",
       "id": 14,
       "alt": "product",
-      "section": "Mesa"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Juego CYD",
@@ -117,7 +131,8 @@
       "price": "200",
       "id": 15,
       "alt": "product",
-      "section": "Mesa"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Yenga",
@@ -125,7 +140,8 @@
       "price": "200",
       "id": 16,
       "alt": "product",
-      "section": "Mesa"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Damas inglesas",
@@ -133,7 +149,8 @@
       "price": "200",
       "id": 17,
       "alt": "product",
-      "section": "Mesa"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "Monopoly",
@@ -141,14 +158,8 @@
       "price": "200",
       "id": 18,
       "alt": "product",
-      "section": "Mesa"
-    },
-    {
-      "section": "animales",
-      "urlImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fperros&psig=AOvVaw1sjcIYpxxhcI-RNyO8VvMd&ust=1670132594597000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPje-_Pe3PsCFQAAAAAdAAAAABAD",
-      "name": "Perro piolita",
-      "price": "200",
-      "id": "5f9c66db-11b1-4095-9e4f-c78d56a0dbd9"
+      "section": "Mesa",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     }
   ]
 }

@@ -1,19 +1,27 @@
 {
   "name": "e-commerce",
   "version": "1.0.0",
-  "description": "E-commerce proyecto realizado en ORACLE ONE NEXT EDUCATION",
-  "main": "index.js",
+  "description": "E-commerce basado en reto de alura latam",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brianelmo/E-commerce-oracle.git"
+  },
   "keywords": [
-    "html",
-    "css",
-    "javascript",
-    "fetch",
-    "npm"
+    "JAVASCRIPT",
+    "NODE",
+    "GIT",
+    "CSS",
+    "HTML"
   ],
   "author": "Brian Nicolas Elmo",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brianelmo/E-commerce-oracle/issues"
+  },
+  "homepage": "https://github.com/Brianelmo/E-commerce-oracle#readme"
 }

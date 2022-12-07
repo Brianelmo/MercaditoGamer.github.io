@@ -16,7 +16,6 @@ const crearCliente = (name , price , section , urlImage , id) => {
       id: uuid.v4()
     })
   }) ; 
-  
 }  
 
 const deleteClient = (id) => {

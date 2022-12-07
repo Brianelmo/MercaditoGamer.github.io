@@ -54,5 +54,9 @@ productosService
 
 
 
+const btnLogin = document.querySelector('#btn_login') 
 
 
+btnLogin.addEventListener("click" , () => {
+  document.location.href = './assets/login.html'
+})

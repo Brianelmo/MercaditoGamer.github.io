@@ -48,12 +48,11 @@ const asideProduct = (name , price , urlImage , id, section) => {
   </div>
   <p>${name}</p>
   <p>${price}</p>
-  <a class='link-prod'href="assets/screens/product.html?id=${id}">Ver Producto</a>
+  <a class='link-prod'href="product.html?id=${id}">Ver Producto</a>
   `  
   div.innerHTML = content; 
   div.classList.add('tarjeta__producto')
   return div; 
-  
 }       
 
 
@@ -116,4 +115,13 @@ productosService
       contProd.appendChild(nuevaLinea);
     }
   })
+})
+
+
+
+const btnLogin = document.querySelector('#btn_login') 
+
+
+btnLogin.addEventListener("click" , () => {
+  document.location.href = 'assets/screens/login.html'
 })

@@ -123,5 +123,5 @@ const btnLogin = document.querySelector('#btn_login-prod')
 
 
 btnLogin.addEventListener("click" , () => {
-  document.location.href = 'assets/screens/login.html'
+  document.location.href = '"../screens/login.html"'
 })

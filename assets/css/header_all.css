@@ -118,7 +118,7 @@
 @media (min-width: 1280px) { 
 
   .header {
-    width: 100%;
+    width: auto;
     justify-content: space-around;
   }
  

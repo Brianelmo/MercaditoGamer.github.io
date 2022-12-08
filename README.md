@@ -7,7 +7,7 @@ E-commerce gestion, proyecto oracle one education
 <h1>Funcionalidad</h1>
 <li> El proyecto consiste en la implementacion de un CRUD y la validacion de formularios en el login</li>  
 <p> la parte visual del proyecto esta basada en el figma original del curso Alura Latam</p> 
-[![Screenshot-105.png](https://i.postimg.cc/cHN5nKrk/Screenshot-105.png)](https://postimg.cc/McdDkp01) 
+<a href='https://postimg.cc/McdDkp01' target='_blank'><img src='https://i.postimg.cc/McdDkp01/Screenshot-105.png' border='0' alt='Screenshot-105'/></a>
 <h1>Te invito a que le des un vistazo</h1> 
 <p>te dejo aqui el link <a href='https://brianelmo.github.io/MercaditoGamer.github.io/'>Aqui</a> 
 <hr>

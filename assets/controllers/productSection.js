@@ -6,7 +6,7 @@ const aside = document.querySelector(".container-prods");
 
 const starWars = "Star Wars";
 const consolas = "Consola"; 
-const mesa = "Mesa"; 
+const mesa = "Mesa";  
 
 const crearProducto = (name , price , section , urlImage, descripcion) => {
 
@@ -111,6 +111,12 @@ productosService
   })
   data.forEach(({name , price , section , id , urlImage, descripcion})=> {
     if(section === mesa ){
+      const nuevaLinea = crearProducto(name, price , id ,urlImage, descripcion); 
+      contProd.appendChild(nuevaLinea);
+    }
+  })
+  data.forEach(({name , price , section , id , urlImage, descripcion})=> {
+    if(section !== mesa && section !== starWars && section !== consolas ){
       const nuevaLinea = crearProducto(name, price , id ,urlImage, descripcion); 
       contProd.appendChild(nuevaLinea);
     }

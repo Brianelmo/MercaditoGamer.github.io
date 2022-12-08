@@ -1,9 +1,11 @@
-//GET
+//GET 
 
-const listProducts  = () => fetch('https://data-base-ewra.onrender.com/producto').then(respuesta => respuesta.json());  
+const server = 'https://data-base-ewra.onrender.com';
+
+const listProducts  = () => fetch(server + '/producto').then(respuesta => respuesta.json());  
 
 const crearCliente = (name , price , section , urlImage , id) => {
-  return fetch(`https://data-base-ewra.onrender.com/producto/${id}`, {
+  return fetch(server + `/producto${id}`, {
     method: "POST", 
     headers: {
       "Content-Type" : "application/json"
@@ -19,20 +21,20 @@ const crearCliente = (name , price , section , urlImage , id) => {
 }  
 
 const deleteClient = (id) => {
-  return fetch(`https://data-base-ewra.onrender.com/producto/${id}`, {
+  return fetch(server + `/producto${id}`, {
     method: "DELETE", 
   })
 } 
 
 
 const datosProduct = (id) => {
-  return fetch(`https://data-base-ewra.onrender.com/producto/${id}`).
+  return fetch(server + `/producto${id}`).
   then(reponse  =>  reponse.json());
 }
  
 
 const editClient = (name , price , urlImage , section, id) => {
-  return fetch(`https://data-base-ewra.onrender.com/producto/${id}`, {
+  return fetch(server + `/producto${id}`, {
     method:"PUT", 
     headers: {
       "Content-Type": "application/json"

@@ -1,6 +1,6 @@
 //GET
 
-const listProducts  = () => fetch('https://mercaditogamer.onrender.com/producto').then(respuesta => respuesta.json());  
+const listProducts  = () => fetch('https://data-base-ewra.onrender.com/producto').then(respuesta => respuesta.json());  
 
 const crearCliente = (name , price , section , urlImage , id) => {
   return fetch(`https://data-base-ewra.onrender.com/producto/${id}`, {

@@ -48,7 +48,7 @@ const asideProduct = (name , price , urlImage , id, section) => {
   </div>
   <p>${name}</p>
   <p>${price}</p>
-  <a class='link-prod'href="product.html?id=${id}">Ver Producto</a>
+  <a class='link-prod'href="../screens/product.html?id=${id}">Ver Producto</a>
   `  
   div.innerHTML = content; 
   div.classList.add('tarjeta__producto')
@@ -119,7 +119,7 @@ productosService
 
 
 
-const btnLogin = document.querySelector('#btn_login') 
+const btnLogin = document.querySelector('#btn_login-prod') 
 
 
 btnLogin.addEventListener("click" , () => {

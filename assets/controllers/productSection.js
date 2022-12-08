@@ -48,7 +48,7 @@ const asideProduct = (name , price , urlImage , id, section) => {
   </div>
   <p>${name}</p>
   <p>${price}</p>
-  <a class='link-prod'href="assets/screens/product.html?id=${id}">Ver Producto</a>
+  <a class='link-prod'href="https://brianelmo.github.io/MercaditoGamer.github.io/assets/screens/product.html?id=${id}">Ver Producto</a>
   `  
   div.innerHTML = content; 
   div.classList.add('tarjeta__producto')

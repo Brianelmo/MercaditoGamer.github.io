@@ -4,8 +4,8 @@ const server = 'https://data-base-ewra.onrender.com';
 
 const listProducts  = () => fetch(server + '/producto').then(respuesta => respuesta.json());  
 
-const crearCliente = (name , price , section , urlImage , id) => {
-  return fetch(server + `/producto/${id}`, {
+const crearCliente = (name , price , section , urlImage) => {
+  return fetch(server + `/producto`, {
     method: "POST", 
     headers: {
       "Content-Type" : "application/json"
